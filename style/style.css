@@ -230,10 +230,9 @@ section {
 		align-items: center;
 		justify-content: space-evenly;
 		flex-direction: column;
-		z-index: -1;
-		width: 60%;
+		width: 100%;
 		background-color: #e6e6e6;
-		transform: translateX(100%);
+		transform: translateY(-100%);
 		transition: all 1s;
 		opacity: 0;
 		z-index: 9998;
@@ -241,7 +240,7 @@ section {
 
 	nav ul.slide {
 		opacity: 1;
-		transform: translateX(0);
+		transform: translateY(0);
 	}
 
 	.menu-toggle {
@@ -265,6 +264,12 @@ section {
 
 	.konten {
 		grid-area: konten;
+	}
+
+	.konten .skill {
+		display: flex;
+		flex-direction: column;
+		margin-top: 20px;
 	}
 }
 
