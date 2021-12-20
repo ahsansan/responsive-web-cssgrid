@@ -238,6 +238,21 @@ section {
 		z-index: 9998;
 	}
 
+	nav ul li a {
+		color: white;
+		display: block;
+		cursor: pointer;
+		background-color:#038400 ;
+		padding: 25px;
+		width: 100vh;
+		height: 25px;
+	}
+
+	nav ul li a:hover {
+		background-color:#389536 ;
+		color: #333;
+	}
+
 	nav ul.slide {
 		opacity: 1;
 		transform: translateY(0);
