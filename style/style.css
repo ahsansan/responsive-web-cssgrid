@@ -239,18 +239,16 @@ section {
 	}
 
 	nav ul li a {
-		color: white;
 		display: block;
 		cursor: pointer;
-		background-color:#038400 ;
+		color:#038400 ;
 		padding: 25px;
 		width: 100vh;
 		height: 25px;
 	}
 
 	nav ul li a:hover {
-		background-color:#389536 ;
-		color: #333;
+		color:#389536 ;
 	}
 
 	nav ul.slide {
